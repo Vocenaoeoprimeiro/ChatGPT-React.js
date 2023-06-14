@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #1d1e23; */
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.3)), url('../src/images/zezerino_crie_uma_imagem_de_capa_1920x1080_futurista_falando_do_1a9afcd2-6832-4fd8-86aa-57b2e322d099.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+div.container div.textos-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container div.textos-container textarea, input{
+    width: 100%;
+    resize: none;
+    padding: 8px;
+    color: #18191b;
+    outline: none;
+    font-size: 24px;
+    text-align: justify;
+    border: 3px solid #17181d;
+}
+
+div.container div.textos-container textarea.resposta{
+    min-height: 50vh;
+    margin-bottom: 10px;
+}
+
+div.container div.textos-container input{
+    height: 10vh;
+    margin-bottom: 10px;
+}
+
+div.container div.btn-container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container div.btn-container button{
+    padding: 10px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
+    font-size: 20px;
+}
